@@ -15,7 +15,7 @@ const JWT_SECRET = process.env.JWT_SECRET ;
 
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://gamble-xi.vercel.app'],
+    origin: ['http://localhost:5173', 'https://gamble-xi.vercel.app','https://gamble-hmfdz14xq-jatin-aroras-projects-014cda30.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
